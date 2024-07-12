@@ -2,7 +2,7 @@ name: Scheduled Python Script
 
 on:
   schedule:
-    - cron: '0 * * * *'  # This will run the script every hour
+    - cron: '*/10 * * * *'  # This will run the script every 10 minutes
 
 jobs:
   run-script:
